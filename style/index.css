@@ -1,0 +1,229 @@
+html, body {
+  background-color: var(--background-color);
+  font-family: Garamond;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  color: var(--white-color);
+}
+
+/* Main section */
+#mainSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 57px 90px;
+}
+
+#mainSection header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+#deanPicture {
+  width: 276.59px;
+  height: 276.59px;
+
+  border-radius: 50%;
+
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#deanPicture img {
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Supernatural Knight';
+}
+
+h1, .mainSubtitle {
+  font-size: 39.83px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.mainText {
+  font-size: 35.4px;
+  margin: 32px 24px;
+}
+
+.button {
+  width: 250px;
+  height: 80px;
+  border-radius: 11.06px;
+  color: var(--white-color);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+nav {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#starIcon {
+  position: absolute;
+  width: 134px;
+  top: 33px;
+  right: 41px;
+}
+
+/* personality section */
+#personalitySection {
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+#personalitySection .container {
+  display: flex;
+  gap: 41px;
+}
+
+#personalitySection h2 {
+  font-family: 'Supernatural Knight';
+  font-size: 36px;
+  padding-bottom: 9px;
+}
+
+#personalitySection p {
+  font-size: 30px;
+}
+
+/* Playlist section */
+#playlistSection {
+  padding: 200px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 91px;
+  align-items: center;
+  background: url(../img/simbolo2.png) no-repeat;
+  background-size: 1005px;
+  background-position: right center;
+}
+
+#playlistSection header, 
+#phrasesSection header,
+#curiousitiessection header {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 34px;
+  font-family: 'Supernatural Knight';
+  font-size: 36px;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+  gap: 36px;
+  width: 100%;
+  max-width: 1600px;
+}
+
+.card {
+  background-color: var(--secondary-beige-color);
+  width: 457px;
+  height: 568px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.card svg {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card h3 {
+  font-family: 'Supernatural Knight';
+  font-size: 36px;
+  color: var(--background-color);
+  position: absolute;
+  bottom: 36px;
+}
+
+.elevation {
+  transform: translateY(-68px);
+}
+
+/* phrases section */
+
+#phrasesSection {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+
+.phrase {
+  display: flex;
+  align-items: center;
+}
+
+.phrase p {
+  font-size: 32px;
+}
+
+.p2 {
+  flex-direction: row-reverse;
+}
+
+#curiousitiessection { 
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 108px;
+  align-items: center;
+  padding: 0 48px 424px 48px;
+}
+
+#curiousitiessection .curious {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.c h3 {
+  font-size: 32px;
+}
+.c p {
+  font-size: 25px;
+  text-align: center;
+}
+
+.familyPicture {
+  width: 709px;
+  height: 502px;
+  position: absolute;
+  right: -26px;
+  bottom: -152px;
+}
+
+#curiousitiessection > h3 {
+  font-size: 32px;
+}

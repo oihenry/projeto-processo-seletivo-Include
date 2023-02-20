@@ -1,0 +1,50 @@
+main {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--grey-color);
+  background-image: url(../img/Deanlindao.png);
+  background-repeat: no-repeat;
+  background-size: 585px;
+  background-position: left center;
+  border: 14px solid #808080;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Supernatural Knight';
+  font-size: 56px;
+  color: var(--white-color);
+  position: absolute;
+  top: 40%;
+  left: 344px;
+}
+
+.box {
+  position: absolute;
+  bottom: 20%;
+  right: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 19px;
+}
+
+p {
+  font-size: 36px;
+  color: var(--white-color);
+  text-align: center;
+}
+
+button {
+  width: 230px;
+  height: 46px;
+  border-radius: 10px;
+  background-color: #3D2855;
+  font-size: 24px;
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}

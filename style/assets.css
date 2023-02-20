@@ -1,0 +1,30 @@
+/* fonts */
+@font-face {
+  font-family: 'Supernatural Knight';
+  src: url(../fonts/Supernatural_Knight.ttf)
+}
+
+@font-face {
+  font-family: Garamond;
+  src: url(../fonts/CormorantGaramond-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Garamond;
+  src: url(../fonts/CormorantGaramond-Bold.ttf);
+  font-weight: 800;
+}
+
+
+/* Colors */
+:root {
+  --background-color: #000000;
+  --white-color: #ffffff;
+  --secondary-green-color: #3A3C20;
+  --secondary-brown-color: #382705;
+  --secondary-beige-color: #C1BC89;
+  --secondary-ble-color: #2C1D3D;
+  --secondary-color-yelow: #9CB521;
+  --grey-color: #1B1919;
+}
